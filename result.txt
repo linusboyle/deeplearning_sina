@@ -1,0 +1,6 @@
+dim 300
+word_len 1000
+
+cnn 256batch random_initialization(embedding) adam 58.98% at epoch 5 f1(macro)=0.2919288 coef=0.42360196
+rnn 256batch rmsprop 51.39% at epoch 10 f1(macro)=0.1658630 coef=0.3950389
+mpl 256batch random_initialization(embedding) 47.75% at epoch 5 f1(macro)=0.0808019 coef=0.3983701
